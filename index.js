@@ -11,7 +11,7 @@ const logSpacing = "\n\n";
 
 
 
-let offSet = Math.floor(Math.random() * 1800)
+let offSet = Math.floor(Math.random() * 1800 + 1)
 
 
 // function getCategories() {
@@ -42,7 +42,7 @@ const fetchWithAsyncAWait = async url => {
     );
     console.log("Status code:", response.status);
     console.log(hydratedBody);
-    fs.writeFile('test.txt', JSON.stringify(hydratedBody), function (err) {
+    fs.writeFile('categories.json', JSON.stringify(hydratedBody), function (err) {
         if (err) {
             return console.log(err);
         }
