@@ -1,0 +1,26 @@
+{
+  "name": "jeopardy-data-json-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tander29/jeopardy-data-json-file.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tander29/jeopardy-data-json-file/issues"
+  },
+  "homepage": "https://github.com/tander29/jeopardy-data-json-file#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "node-fetch": "^2.1.2",
+    "request": "^2.87.0"
+  }
+}
